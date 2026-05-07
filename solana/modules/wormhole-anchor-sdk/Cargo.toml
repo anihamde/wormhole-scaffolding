@@ -23,8 +23,8 @@ idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
 no-custom-discriminator = []
 
 [dependencies]
-anchor-lang = { version = "0" }
-anchor-spl = { version = "0" }
+anchor-lang = { version = "0.31.1" }
+anchor-spl = { version = "0.31.1" }
 # NOTE: this is the `main` commit at the time of writing.
 wormhole-svm-definitions = { git = "https://github.com/wormhole-foundation/wormhole", rev = "325cca4b628f17536f54b079eeb82b41247bfbef" }
 cfg-if = "1.0.0"
